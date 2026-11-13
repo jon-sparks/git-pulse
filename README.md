@@ -2,6 +2,15 @@
 
 A native macOS desktop dashboard for tracking your local Git repositories and GitHub Pull Requests, built with **Tauri 2**, **Vue 3**, **TypeScript**, and **Tailwind CSS**.
 
+## Install
+
+1. Download the `.dmg` for your Mac from the [Latest Release](https://github.com/jon-sparks/git-pulse/releases/latest):
+   - **Apple Silicon (M1/M2/M3/M4):** `*_aarch64.dmg`
+   - **Intel Mac:** `*_x64.dmg`
+2. Open the `.dmg` and drag **GitPulse** into **Applications**.
+3. On first launch (since the app isn't Apple-notarized), allow it in **System Settings → Privacy & Security → Open Anyway** (or run `xattr -cr /Applications/GitPulse.app`).
+4. Future updates will appear automatically as an **Update** button in the app header.
+
 ## Features
 
 - **Multi-Repo Tabs:** Add multiple local Git repositories and switch between them quickly from the top tab bar, with ahead/behind sync indicators per repo.
